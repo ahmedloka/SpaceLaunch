@@ -9,7 +9,7 @@ import my.apps.udacity.nano.degree.space.launch.R;
 import my.apps.udacity.nano.degree.space.launch.models.firstLaunch.Launches;
 import my.apps.udacity.nano.degree.space.launch.models.firstLaunch.Rocket;
 
-@Database(entities = {Launches.class, Rocket.class}, version = 5)
+@Database(entities = {Launches.class, Rocket.class}, version = 6)
 public abstract class LaunchDatabase extends RoomDatabase {
 
     private static LaunchDatabase instance;
