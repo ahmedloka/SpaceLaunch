@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/upcomuing_launch_nav"
+        android:icon="@drawable/ic_upcoming"
+        android:title="@string/next_launch" />
+
+    <item
+        android:id="@+id/all_launches_nav"
+        android:icon="@drawable/ic_startup"
+        android:title="@string/all_launches" />
+
+
+    <item
+        android:id="@+id/settings_nav"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings" />
+
+</menu>

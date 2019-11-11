@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "850555515483",
+    "firebase_url": "https://spacelaunch-7103c.firebaseio.com",
+    "project_id": "spacelaunch-7103c",
+    "storage_bucket": "spacelaunch-7103c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850555515483:android:29faa303189b0944cb057e",
+        "android_client_info": {
+          "package_name": "my.apps.udacity.nano.degree.space.launch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "850555515483-l7d8n12o99aje756bre5iijcp4vto42f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "my.apps.udacity.nano.degree.space.launch",
+            "certificate_hash": "53ec48c067604eb4cc3209aac1cc5d38bbae2dee"
+          }
+        },
+        {
+          "client_id": "850555515483-mvldprn3j4rggeggqtp12hhp2vds8779.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLs53EonACVMo8xUcntE3Duo5OOFJB6mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "850555515483-mvldprn3j4rggeggqtp12hhp2vds8779.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

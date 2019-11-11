@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="my.apps.udacity.nano.degree.space.launch">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".activites.beforeHome.SignUpActivity"></activity>
+        <activity android:name=".activites.beforeHome.SignInActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".appWidget.SpaceTimerWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/space_timer_widget_info" />
+        </receiver>
+
+        <activity
+            android:name=".activites.MapsActivity"
+            android:parentActivityName=".activites.home.HomeActivity" />
+        <activity
+            android:name=".activites.DetailsActivity"
+            android:parentActivityName=".activites.home.HomeActivity" />
+        <activity android:name=".activites.home.HomeActivity">
+
+        </activity>
+
+
+        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+
+    </application>
+
+</manifest>

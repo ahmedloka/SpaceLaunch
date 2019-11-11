@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ok">حسنا</string>
+    <string name="default_error">الرجاء معاودة المحاولة في وقت لاحق</string>
+    <string name="pls_check_connection">الرجاء معاودة المحاولة في وقت لاحق</string>
+    <string name="all_launches">جميع الانطلاقات</string>
+    <string name="next_launch">القادم</string>
+    <string name="days">أيام</string>
+    <string name="hrs">ساعات</string>
+    <string name="mins">دقائق</string>
+    <string name="secs">ثواني</string>
+    <string name="settings">الإعدادات</string>
+    <string name="there_is_no">لا توجد بيانات متاحة لهذا الإطلاق</string>
+    <string name="view_on_map"><u> <font color='#0000EE' size='18'>عرض على الخريطة</font></u></string>
+    <string name="appwidget_text">انقر هنا لرؤية تفاصيل الإطلاق</string>
+    <string name="no_map">لا توجد خريطة متاحة</string>
+    <string name="click_here_to_see_details">انقر هنا لرؤية تفاصيل الاطلاق</string>
+    <string name="change_lang">تغير اللغة</string>
+    <string name="change_language">تغير اللغة</string>
+    <string name="english">English</string>
+    <string name="arabic">عربي</string>
+    <string name="cancel">إلغاء</string>
+    <string name="launch_img">صورة إطلاق الصواريخ</string>
+    <string name="alreadt_had_account">هل لديك حساب بالفعل؟
+</string>
+    <string name="register">تسجيل</string>
+    <string name="name">اسم</string>
+    <string name="email_address">عنوان بريد الكتروني</string>
+    <string name="password">كلمه السر</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="confirm_password_did_not_match">كلمة السر ليست جيدة</string>
+    <string name="confirm_password_error">كلمة المرور فارغة
+</string>
+    <string name="error_password_length_max">يجب أن تكون كلمة المرور أكبر من 8 أحرف
+</string>
+    <string name="error_password_length_min">يجب أن تكون كلمة المرور أكبر من 8 أحرف
+</string>
+    <string name="password_error_register">كلمة المرور فارغة
+</string>
+    <string name="enter_email_error">أدخل بريد إلكتروني متاح</string>
+    <string name="enter_email_empty">البريد الإلكتروني فارغ
+</string>
+    <string name="username_error">الاسم فارغ
+</string>
+    <string name="error_register_before">هذا البريد الإلكتروني موجود بالفعل
+</string>
+    <string name="error_register">الرجاء معاودة المحاولة في وقت لاحق</string>
+    <string name="register_successfully">تهانينا !</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="do_not_have_account">لا تملك حساب</string>
+    <string name="error_email_or_phone_empty">البريد الإلكتروني فارغ
+</string>
+    <string name="login_error">حاول مرة اخرى</string>
+    <string name="log_out">تسجيل خروج</string>
+    <string name="app_logo">شعار التطبيق</string>
+</resources>
